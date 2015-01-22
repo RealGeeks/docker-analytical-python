@@ -1,10 +1,6 @@
-FROM python:3-onbuild
+FROM python:2
 MAINTAINER bem@hq.realgeeks.com
 
-ENV environment production
-
-RUN \
-  apt-get update && \
-  apt-get install python-numpy python-matplotlib python-pandas && \
-  rm -rf /var/lib/apt/lists/*
-
+RUN apt-get update && \
+    apt-get install -y python-numpy python-matplotlib python-pandas && \
+    rm -rf /var/lib/apt/lists/*
