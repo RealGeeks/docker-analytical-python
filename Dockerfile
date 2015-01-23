@@ -6,4 +6,4 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 ENV WORKDIR .
-RUN pip install -r ${WORKDIR}/requirements.txt
+RUN pip install -r requirements.txt
