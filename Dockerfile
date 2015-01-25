@@ -1,8 +1,8 @@
-FROM python:2
+FROM ubuntu:14.04
 MAINTAINER bem@hq.realgeeks.com
 
 RUN apt-get update && \
-    apt-get install -y python-dev gfortran build-essential make gcc build-essential && \
+    apt-get install -y python python-dev python-pip python-dev openssl gfortran build-essential make gcc build-essential && \
     rm -rf /var/lib/apt/lists/*
 
 ENV WORKDIR /tmp
