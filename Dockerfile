@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 MAINTAINER bem@hq.realgeeks.com
 
 RUN apt-get update && \
-    apt-get install -y python python-dev python-pip python-dev openssl gfortran build-essential make gcc build-essential libffi-dev libssl-dev && \
+    apt-get install -y python python-dev python-pip openssl gfortran make gcc build-essential libffi-dev libssl-dev && \
     rm -rf /var/lib/apt/lists/*
 
 ENV WORKDIR /tmp
