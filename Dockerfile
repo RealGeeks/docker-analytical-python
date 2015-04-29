@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu
 MAINTAINER bem@hq.realgeeks.com
 
 RUN apt-get update && \
