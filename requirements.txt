@@ -1,4 +1,3 @@
-numpy==1.9.2
-pandas==0.15.2
+numpy==1.11.2
+pandas==0.19.1
 git+git://github.com/RealGeeks/matplotlib.git@svg_css
-
