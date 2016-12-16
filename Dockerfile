@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:trusty
 MAINTAINER bem@hq.realgeeks.com
 
 RUN apt-get update && \
