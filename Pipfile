@@ -8,8 +8,9 @@ numpy = "*"
 pandas = "*"
 matplotlib = "*"
 "oauth2client" = "*"
+httplib2 = ">=0.18.0"
 
 [dev-packages]
 
 [requires]
-python_version = "3.4"
+python_version = "3.7"
